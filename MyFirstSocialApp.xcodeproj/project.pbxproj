@@ -15,8 +15,6 @@
 		84123D6617EF5536007A31EA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84123D6517EF5536007A31EA /* Default@2x.png */; };
 		84123D6817EF5536007A31EA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84123D6717EF5536007A31EA /* Default-568h@2x.png */; };
 		84123DD817EF6249007A31EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84123DBA17EF6249007A31EA /* AppDelegate.m */; };
-		84123DD917EF6249007A31EA /* OAuthData.m in Sources */ = {isa = PBXBuildFile; fileRef = 84123DBD17EF6249007A31EA /* OAuthData.m */; };
-		84123DDA17EF6249007A31EA /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 84123DBF17EF6249007A31EA /* Utilities.m */; };
 		84123DDB17EF6249007A31EA /* Backend.m in Sources */ = {isa = PBXBuildFile; fileRef = 84123DC217EF6249007A31EA /* Backend.m */; };
 		84123DDC17EF6249007A31EA /* Pair.m in Sources */ = {isa = PBXBuildFile; fileRef = 84123DC417EF6249007A31EA /* Pair.m */; };
 		84123DDD17EF6249007A31EA /* Trend.m in Sources */ = {isa = PBXBuildFile; fileRef = 84123DC617EF6249007A31EA /* Trend.m */; };
@@ -31,6 +29,8 @@
 		84123DE617EF6249007A31EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84123DD617EF6249007A31EA /* ViewController.m */; };
 		84123DE717EF6249007A31EA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84123DD717EF6249007A31EA /* ViewController.xib */; };
 		84123DEB17EF6300007A31EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84123DE917EF6300007A31EA /* InfoPlist.strings */; };
+		84123DF117EF657F007A31EA /* OAuthData.m in Sources */ = {isa = PBXBuildFile; fileRef = 84123DEE17EF657F007A31EA /* OAuthData.m */; };
+		84123DF217EF657F007A31EA /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 84123DF017EF657F007A31EA /* Utilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,10 +46,6 @@
 		84123D6717EF5536007A31EA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		84123DB917EF6249007A31EA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84123DBA17EF6249007A31EA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84123DBC17EF6249007A31EA /* OAuthData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthData.h; sourceTree = "<group>"; };
-		84123DBD17EF6249007A31EA /* OAuthData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthData.m; sourceTree = "<group>"; };
-		84123DBE17EF6249007A31EA /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
-		84123DBF17EF6249007A31EA /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 		84123DC117EF6249007A31EA /* Backend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Backend.h; sourceTree = "<group>"; };
 		84123DC217EF6249007A31EA /* Backend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Backend.m; sourceTree = "<group>"; };
 		84123DC317EF6249007A31EA /* Pair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pair.h; sourceTree = "<group>"; };
@@ -72,6 +68,10 @@
 		84123DD617EF6249007A31EA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84123DD717EF6249007A31EA /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		84123DEA17EF6300007A31EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		84123DED17EF657F007A31EA /* OAuthData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthData.h; sourceTree = "<group>"; };
+		84123DEE17EF657F007A31EA /* OAuthData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthData.m; sourceTree = "<group>"; };
+		84123DEF17EF657F007A31EA /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		84123DF017EF657F007A31EA /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,6 @@
 			children = (
 				84123DB917EF6249007A31EA /* AppDelegate.h */,
 				84123DBA17EF6249007A31EA /* AppDelegate.m */,
-				84123DBB17EF6249007A31EA /* Authentication */,
 				84123DC017EF6249007A31EA /* Backend */,
 				84123DCB17EF6249007A31EA /* Resources */,
 				84123DCE17EF6249007A31EA /* UI */,
@@ -136,20 +135,10 @@
 			path = MyFirstSocialApp;
 			sourceTree = "<group>";
 		};
-		84123DBB17EF6249007A31EA /* Authentication */ = {
-			isa = PBXGroup;
-			children = (
-				84123DBC17EF6249007A31EA /* OAuthData.h */,
-				84123DBD17EF6249007A31EA /* OAuthData.m */,
-				84123DBE17EF6249007A31EA /* Utilities.h */,
-				84123DBF17EF6249007A31EA /* Utilities.m */,
-			);
-			path = Authentication;
-			sourceTree = "<group>";
-		};
 		84123DC017EF6249007A31EA /* Backend */ = {
 			isa = PBXGroup;
 			children = (
+				84123DEC17EF657F007A31EA /* Authentication */,
 				84123DC117EF6249007A31EA /* Backend.h */,
 				84123DC217EF6249007A31EA /* Backend.m */,
 				84123DC317EF6249007A31EA /* Pair.h */,
@@ -195,6 +184,17 @@
 				84123DE917EF6300007A31EA /* InfoPlist.strings */,
 			);
 			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		84123DEC17EF657F007A31EA /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				84123DED17EF657F007A31EA /* OAuthData.h */,
+				84123DEE17EF657F007A31EA /* OAuthData.m */,
+				84123DEF17EF657F007A31EA /* Utilities.h */,
+				84123DF017EF657F007A31EA /* Utilities.m */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,8 +269,6 @@
 			files = (
 				84123D5E17EF5536007A31EA /* main.m in Sources */,
 				84123DD817EF6249007A31EA /* AppDelegate.m in Sources */,
-				84123DD917EF6249007A31EA /* OAuthData.m in Sources */,
-				84123DDA17EF6249007A31EA /* Utilities.m in Sources */,
 				84123DDB17EF6249007A31EA /* Backend.m in Sources */,
 				84123DDC17EF6249007A31EA /* Pair.m in Sources */,
 				84123DDD17EF6249007A31EA /* Trend.m in Sources */,
@@ -279,6 +277,8 @@
 				84123DE217EF6249007A31EA /* TweetCell.m in Sources */,
 				84123DE417EF6249007A31EA /* TweetsViewController.m in Sources */,
 				84123DE617EF6249007A31EA /* ViewController.m in Sources */,
+				84123DF117EF657F007A31EA /* OAuthData.m in Sources */,
+				84123DF217EF657F007A31EA /* Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

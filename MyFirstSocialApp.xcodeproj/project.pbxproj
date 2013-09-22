@@ -29,8 +29,8 @@
 		84123D9717EF5978007A31EA /* TweetsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84123D9017EF5978007A31EA /* TweetsViewController.xib */; };
 		84123D9817EF5978007A31EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84123D9217EF5978007A31EA /* ViewController.m */; };
 		84123D9917EF5978007A31EA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84123D9317EF5978007A31EA /* ViewController.xib */; };
-		84123D9D17EF5BD4007A31EA /* twitter_wallpaper_3_by_rahul964.png in Resources */ = {isa = PBXBuildFile; fileRef = 84123D9B17EF5BD4007A31EA /* twitter_wallpaper_3_by_rahul964.png */; };
-		84123D9E17EF5BD4007A31EA /* twitterLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84123D9C17EF5BD4007A31EA /* twitterLogo.png */; };
+		84123DA217EF5F92007A31EA /* twitter_wallpaper_3_by_rahul964.png in Resources */ = {isa = PBXBuildFile; fileRef = 84123DA017EF5F92007A31EA /* twitter_wallpaper_3_by_rahul964.png */; };
+		84123DA317EF5F92007A31EA /* twitterLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84123DA117EF5F92007A31EA /* twitterLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,8 +70,8 @@
 		84123D9117EF5978007A31EA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84123D9217EF5978007A31EA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84123D9317EF5978007A31EA /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		84123D9B17EF5BD4007A31EA /* twitter_wallpaper_3_by_rahul964.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_wallpaper_3_by_rahul964.png; sourceTree = "<group>"; };
-		84123D9C17EF5BD4007A31EA /* twitterLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitterLogo.png; sourceTree = "<group>"; };
+		84123DA017EF5F92007A31EA /* twitter_wallpaper_3_by_rahul964.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_wallpaper_3_by_rahul964.png; sourceTree = "<group>"; };
+		84123DA117EF5F92007A31EA /* twitterLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitterLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 		84123D4517EF5536007A31EA = {
 			isa = PBXGroup;
 			children = (
-				84123D9A17EF5BD4007A31EA /* Resources */,
+				84123D9F17EF5F92007A31EA /* Resources */,
 				84123D8A17EF5978007A31EA /* UI */,
 				84123D5717EF5536007A31EA /* MyFirstSocialApp */,
 				84123D5017EF5536007A31EA /* Frameworks */,
@@ -188,13 +188,14 @@
 			path = MyFirstSocialApp/UI;
 			sourceTree = "<group>";
 		};
-		84123D9A17EF5BD4007A31EA /* Resources */ = {
+		84123D9F17EF5F92007A31EA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				84123D9B17EF5BD4007A31EA /* twitter_wallpaper_3_by_rahul964.png */,
-				84123D9C17EF5BD4007A31EA /* twitterLogo.png */,
+				84123DA017EF5F92007A31EA /* twitter_wallpaper_3_by_rahul964.png */,
+				84123DA117EF5F92007A31EA /* twitterLogo.png */,
 			);
-			path = Resources;
+			name = Resources;
+			path = MyFirstSocialApp/Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +256,8 @@
 				84123D9517EF5978007A31EA /* TweetCellView.xib in Resources */,
 				84123D9717EF5978007A31EA /* TweetsViewController.xib in Resources */,
 				84123D9917EF5978007A31EA /* ViewController.xib in Resources */,
-				84123D9D17EF5BD4007A31EA /* twitter_wallpaper_3_by_rahul964.png in Resources */,
-				84123D9E17EF5BD4007A31EA /* twitterLogo.png in Resources */,
+				84123DA217EF5F92007A31EA /* twitter_wallpaper_3_by_rahul964.png in Resources */,
+				84123DA317EF5F92007A31EA /* twitterLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
